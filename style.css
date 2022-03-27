@@ -1,8 +1,12 @@
 ul{
-    list-style-type: circle;
-    
+    list-style-image:url("../exercicios/assets/itm.png");
+    list-style-position:inside;
 }
 ol{
-    list-style-type:square;
+    list-style-type: upper-alpha;
+
+}
+li{
+    border: 1px solid;
 
 }
