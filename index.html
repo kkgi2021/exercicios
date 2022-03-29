@@ -10,9 +10,22 @@
         body{
             font-size:1.2rem;
             }
+        .static{
+            position:static;
+        }    
+        .relative{
+            position:relative;
+            top:15px;
+            left:-15px;
+        }    
+        .fixed{
+            position:fixed;
+            right:20px;
+        }
         .quadrado{
             width:100px;
             height:100px;
+            display:inline-block;
         }   
         .bg-red{
             background-color:red;
@@ -23,10 +36,10 @@
 
     </style>
 <body>
-    <div class="quadrado bg-blue">
+    <div class="static quadrado bg-blue">
 
     </div>
-    <div class="quadrado bg-red">
+    <div class="fixed quadrado bg-red">
 
     </div>
 </body>
