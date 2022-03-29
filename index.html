@@ -10,56 +10,44 @@
         body{
             font-size:1.2rem;
             }
-        .static{
-            position:static;
-        }    
-        .relative{
-            position:relative;
-            top:15px;
-            left:-15px;
-        }    
-        .fixed{
-            position:fixed;
-            right:20px;
-            bottom:20px;
-        }
+        
         .quadrado{
             width:100px;
             height:100px;
             display:inline-block;
         }
-        
         .ret{
             width:100px;
             height:500px;
             margin-top:10px;
-        }   
+            overflow-y: scroll;
+        }           
+        
         .bg-red{
             background-color:red;
         }
         .bg-blue{
             background-color:blue;
         }
-        .bg-yellow{
-            background-color:yellow;
+        .bg-gree{
+            background-color:green;
         }
 
     </style>
-<body>    
-    <div class="static ret bg-blue">
-
+<body>
+    <div class="bg-blue ret">pai  <div class="quadrado bg-red">filho 1</div>
+    <div class="quadrado bg-red">filho 2 
+        <div class="quadrado bg-red">filho 3
+            <div class="quadrado bg-red">filho 4
+                <div class="quadrado bg-red">filho 5</div>
+            </div>
+        </div></div>
+    
+    
+          
     </div>
-    <div class="static ret bg-blue">
+   
 
-    </div>
-    <div class="static ret bg-blue">
-
-    </div>
-    <div class="static ret bg-blue">
-
-    </div>
-    <div class="fixed quadrado bg-red">
-
-    </div>
+   
 </body>
 </html>
