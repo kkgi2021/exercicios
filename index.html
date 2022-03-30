@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha primeira pagina</title>
-
-</head>
     <style>
-        body{
-            font-size:1.2rem;
-            }
-        .static{
-            position:static;
-        }    
-        .relative{
-            position:relative;
-            top:15px;
-            left:-15px;
-        }    
-        .fixed{
-            position:fixed;
-            right:20px;
-            bottom:20px;
-        }
-        .quadrado{
-            width:100px;
-            height:100px;
-            display:inline-block;
-        }
-        
-        .ret{
-            width:100px;
-            height:500px;
-            margin-top:10px;
-        }   
-        .bg-red{
-            background-color:red;
-        }
-        .bg-blue{
-            background-color:blue;
-        }
-        .bg-yellow{
-            background-color:yellow;
+        body {
+            font-size: 1.2rem;
         }
 
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .retangulo {
+            width: 200px;
+            height: 500px;
+            margin-top: 10px;
+            overflow:auto;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-green {
+            background-color: green;
+        }
+
+        .bg-blue {
+            background-color: blue;
+        }
+
+        .bg-yellow {
+            background-color: yellow;
+        }
+        .sticky{
+            position:sticky;
+            top:0px;
+        }
     </style>
-<body>    
-    <div class="static ret bg-blue">
+</head>
 
+<body>
+    <div class="bg-blue retangulo">
+        retangulo pai 
+        <div class="quadrado bg-red"> </div>
+        <div class="sticky quadrado bg-green"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
+        <div class="quadrado bg-red"> </div>
     </div>
-    <div class="static ret bg-blue">
 
-    </div>
-    <div class="static ret bg-blue">
 
-    </div>
-    <div class="static ret bg-blue">
-
-    </div>
-    <div class="fixed quadrado bg-red">
-
-    </div>
 </body>
+
+
 </html>
