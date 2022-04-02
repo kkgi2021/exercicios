@@ -4,6 +4,12 @@
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(17, 3, 24)
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
 }
 header{
     background-color:rgb(63, 144, 243);
