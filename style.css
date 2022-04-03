@@ -58,19 +58,20 @@ input[type="submit"]{
 }
 footer{
     background-color: rgb(16, 9, 2);
-    padding: 160px;
+    padding: 40px;
     text-align:center;
 }
 .picture{
-    width:220px;
-
+    height:160px;
 }
 .description{
+    display:inline-block;
     text-align: left;
     color:white;
-    display:inline-block;
     max-width:40%;
+    margin-left:40px;
 }
 .description p, .description h3{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+
