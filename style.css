@@ -34,6 +34,7 @@ h2{
 
 section{
     color:rgb(2, 2, 33);
+    padding:20px;
 }
 .title{
     font-size:26px;
@@ -45,4 +46,9 @@ input,select{
     padding:10px;
     border:none;
     margin-bottom:10px;
+}
+input[type="submit"]{
+    color:white;
+    background-color:rgb(63, 144, 243);
+    font-weight:bold;
 }
