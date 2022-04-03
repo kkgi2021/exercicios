@@ -17,8 +17,16 @@ header{
     text-align:center;
     padding:10px;
 }
+.formContainer{
+    max-width:230px;
+    background-color:rgba(255, 255, 255, 0.797);
+    padding:20px;
+    float:right;
+
+}
+
 section{
-    color:white;
+    color:rgb(2, 2, 33);
 }
 .title{
     font-size:26px;
