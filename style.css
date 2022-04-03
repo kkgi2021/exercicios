@@ -24,6 +24,13 @@ header{
     float:right;
 
 }
+h2{
+    font-size:16px;
+
+}
+.mb{
+    margin-bottom:15px;
+}
 
 section{
     color:rgb(2, 2, 33);
@@ -31,4 +38,11 @@ section{
 .title{
     font-size:26px;
 
+}
+input,select{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px;
+    border:none;
+    margin-bottom:10px;
 }
