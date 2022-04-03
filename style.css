@@ -12,10 +12,13 @@ body{
     margin:auto;
 }
 header{
+    color:white;
     background-color:rgb(63, 144, 243);
     text-align:center;
-    color:white;
     padding:10px;
+}
+section{
+    color:white;
 }
 .title{
     font-size:26px;
